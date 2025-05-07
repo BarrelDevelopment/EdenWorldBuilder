@@ -6,7 +6,7 @@ In this development build, some changes have been made to make it run in Xcode 1
 The world download function has also been modified to download the latest worlds.
 > [!IMPORTANT]  
 > The latest version on the AppStore is Eden: World Builder 2.2.7. These worlds have a higher build limit and are not fully supported in Eden: World Builder 2.1 (and this build).
-> You can download and open World Form 2.2.7, but the blocks will be cut off at the old height limit. 
+> With this developmet build, you can download and open World Form 2.2.7, but the blocks will be cut off at the old height limit. 
 
 ### Fly mode
 By cloning this repo, the fly mode is activated by default. You can use the fire and pickaxe buttons to change the height of the player. 
