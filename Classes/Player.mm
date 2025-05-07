@@ -29,9 +29,9 @@ static bool onground;
 static bool onramp;
 static bool jumpandbuild;
 
-bool FLY_MODE=FALSE;
-bool FLY_UP=false;
-bool FLY_DOWN=false;
+bool FLY_MODE=true;
+bool FLY_UP=true;
+bool FLY_DOWN=true;
 static Point3D buildpoint;
 float yawanimation;
 
@@ -1879,7 +1879,7 @@ void Player::move(float etime){
     mag=sqrt(v_length2(vel));
    // NSLog(@"speed: %f, hspeed: %f",accel.z, hspeed);
     extern int flamecount;
-    // BURN FLY if(flamecount%2==0)vel.y=0;
+    //if(flamecount%2==0)vel.y=0;
 	pos.y+=vel.y*etime;
     pos.x+=vel.x*etime;
 	pos.z+=vel.z*etime;

@@ -46,10 +46,11 @@ static NSString* POPULAR_URL=@"http://files.edengame.net/popularlist.txt";
 #endif
 
 static NSString* UPLOAD_URL=@"http://app.edengame.net/upload2.php";
-static NSString* LIST_URL=@"http://app.edengame.net/list2.php";
-static NSString* REPORT_URL=@"http://app.edengame.net/report.php";
-static NSString* MAPS_URL=@"http://files.edengame.net/";
-static NSString* POPULAR_URL=@"http://files.edengame.net/popularlist.txt";
+//static NSString* LIST_URL=@"http://app.edengame.net/list2.php";
+static NSString* LIST_URL=@"http://app2.edengame.net/list2.php";
+static NSString* REPORT_URL=@"http://app2.edengame.net/report.php";
+static NSString* MAPS_URL=@"http://files2.edengame.net/";
+static NSString* POPULAR_URL=@"http://files2.edengame.net/popularlist.txt";
 
 @implementation ShareUtil
 @synthesize listresult;

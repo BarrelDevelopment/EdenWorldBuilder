@@ -673,7 +673,7 @@ BOOL Hud::update(float etime){
                 
                 if(FLY_MODE){
                 FLY_UP=!FLY_UP;
-				
+                
                 }
                 inmenu=FALSE;
                     handled=TRUE;
@@ -718,7 +718,7 @@ BOOL Hud::update(float etime){
                     mode=MODE_MINE;
                  if(FLY_MODE){
                 FLY_DOWN=!FLY_DOWN;
-				
+                     
                  }
                 inmenu=FALSE;
                 handled=TRUE;
@@ -782,9 +782,9 @@ BOOL Hud::update(float etime){
                 inmenu=FALSE;
 				//test_a+=.0001;
 				//if(test_a>.005)test_a=0;
-				//NSLog(@"attenuation: %f",test_a);
+				NSLog(@"attenuation: %f",test_a);
 				touches[i].inuse=usage_id;
-				//NSLog(@"set touch %d to uid %d",touches[i].touch_id,usage_id);
+				NSLog(@"set touch %d to uid %d",touches[i].touch_id,usage_id);
 			}
 			
 		}
@@ -1947,7 +1947,7 @@ void Hud::render(){
     Graphics::beginHud();
    
 	if(mode==MODE_CAMERA){
-        Graphics::setCameraFog(40);
+        Graphics::setCameraFog(100);
         
 		if(take_screenshot){
 			if(!SUPPORTS_OGL2){
