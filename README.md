@@ -1,5 +1,5 @@
 # Eden: World Builder 2.1.1
-Development build from Eden: World Builder 2.1 running in lates Xcode version (16.1 (16B40))
+Development build from Eden: World Builder 2.1 running in  Xcode version 16.1 (16B40).
 
 ## Description
 In this development build, some changes have been made to make it run in Xcode 16. 
